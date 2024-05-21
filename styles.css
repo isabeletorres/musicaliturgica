@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+h1{
+    text-align: center;
+    color: black;
+}
+.login{
+    background-color: #f36417b9;
+    color: #ffffff
+}
+button{
+    top: 40%;
+    left: 40%;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1.5;
+    color:#fff;
+    transition: background-color 0.5;
+    background-color: black;
+
+    &:hover{
+background-color: rgb(44, 2, 2);
+    }
+}
