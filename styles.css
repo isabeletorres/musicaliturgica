@@ -1,24 +1,43 @@
 @charset "UTF-8";
 
-h1{
+.title{
     text-align: center;
     color: black;
 }
 .login{
+    text-align: justify;
     background-color: #f36417b9;
-    color: #ffffff
+    color: #ffffff;
+}
+h1{
+    text-align: center;
+    color: #f36417;
+}
+h2{
+    text-align:center;
+    color:#f36417b9;
+    font-size: 20px;
+}
+h3{
+    text-align:center;
+    color:black;
+    font-size: 15px;
+}
+p{
+    text-align: justify;
+    color:black;
 }
 button{
     top: 40%;
     left: 40%;
-    position: absolute;
+    
     width: 200px;
     height: 50px;
     border-radius: 5px;
-    border: 1.5;
+    border: 0;
     color:#fff;
     transition: background-color 0.5;
-    background-color: black;
+    background-color:  black;
 
     &:hover{
 background-color: rgb(44, 2, 2);
